@@ -1,0 +1,57 @@
+ [
+  {
+    "name": "Monstera",
+    "price": "30",
+    "image": "./assets/plant4.png",
+    "description":
+      "La plante Monstera, également connue sous le nom de 'plante à trous suisse', est une plante d'intérieur populaire appréciée pour ses grandes feuilles en forme de cœur et ses caractéristiques uniques de feuillage perforé. Facile à entretenir, elle est idéale pour apporter une touche de verdure dans n'importe quel espace de vie.",
+    "light": 3,
+    "water": 2,
+    "flower": "Non"
+  },
+
+  {
+    "name": "Strelitzia",
+    "price": "25",
+    "image": "./assets/plant3.png",
+    "description":
+      "La plante Strelitzia, également appelée 'Oiseau de Paradis', est une plante d'intérieur ou d'extérieur à feuillage persistant. Elle est appréciée pour ses fleurs exotiques orange et bleues qui ressemblent à des têtes d'oiseaux. La Strelitzia est une plante facile à entretenir et apportera une touche tropicale à n'importe quel espace de vie.",
+    "light": 2,
+    "water": 2,
+    "flower": "Non"
+  },
+
+  {
+    "name": "Ficus",
+    "price": "19",
+    "image": "./assets/plant1.png",
+    "description":
+      "Le Ficus, également appelé 'figuier pleureur', est une plante d'intérieur populaire pour son feuillage dense et sa capacité à purifier l'air. Cette plante est facile à entretenir et peut atteindre une hauteur de plusieurs mètres. Le Ficus est un choix idéal pour ceux qui cherchent à ajouter une touche de verdure à leur maison ou leur bureau.",
+    "light": 2,
+    "water": 2,
+    "flower": "Oui"
+  },
+
+  {
+    "name": "Sansevieria",
+    "price": "20",
+    "image": "./assets/homeplant.png",
+    "description":
+      "La plante Sansevieria, également connue sous le nom de 'langue de belle-mère', est une plante d'intérieur populaire pour sa résilience et sa capacité à purifier l'air. Cette plante a un feuillage en forme de lame avec des motifs uniques et peut survivre dans des conditions de faible luminosité et avec peu d'arrosage.",
+    "light": 2,
+    "water": 1,
+    "flower": "Non"
+  },
+
+  {
+    "name": "Aglaonéma",
+    "price": "20",
+    "image": "./assets/plant5.png",
+    "description":
+      "La plante Aglaonéma est une plante d'intérieur populaire appréciée pour son feuillage coloré et sa capacité à s'adapter à des conditions de faible luminosité. Cette plante est facile à entretenir et nécessite peu d'arrosage. Avec des feuilles en forme de cœur et des motifs uniques, l'Aglaonéma apportera une touche de couleur et de vie à n'importe quel espace de vie.",
+    "light": 2,
+    "water": 3,
+    "flower": "Non"
+  }
+ ]
+

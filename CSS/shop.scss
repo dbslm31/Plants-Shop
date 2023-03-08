@@ -1,0 +1,154 @@
+$green: #2c693f;
+$transition:all .2s ease-in-out;
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    margin : 30px 60px;
+
+    .fa-leaf{
+        color:$green;
+    }
+
+
+    ul {
+        display:flex;
+        gap:2rem;
+        position:absolute;
+        left:10%;
+        top:2%;
+
+        li{
+            font-weight: 500;
+            list-style: none;
+            padding: 5px;
+            transition: $transition;
+        }
+
+        li:hover {
+            border-bottom: 2px solid $green;
+            padding: 5px;
+            color:$green;
+            cursor: pointer;
+        }
+
+        
+    }
+
+    .fa-magnifying-glass{
+        margin-right:2rem;
+    }
+
+    .fa-magnifying-glass:hover{
+        color:$green;
+        cursor: pointer;
+        transition: $transition;
+    }
+}
+
+.shop__container{
+    display:flex;
+    align-items:center;
+    position:absolute;
+
+    .shop__content {
+        margin-left : 4rem;
+        width:48%;
+    }
+
+    .shop__content-txt {
+        width:60%;
+        margin-left:6rem;
+    }
+
+    .shop__content-carousel {
+        margin-top:8rem;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+
+        
+
+        .pre-btn {
+            background-color: transparent;
+            border:none;
+            z-index:10;
+            position:absolute;
+            left:5%;
+            top:60%;
+        }
+
+        .next-btn {
+            background-color: transparent;
+            border:none;
+            z-index:10;
+            position:absolute;
+            left:56%;
+            top:60%;
+        }
+    }
+
+    .shop__img img{
+        width:700px;
+        position:relative;
+        right:0;
+    }
+.product__container{
+    display:flex;
+    gap:4rem;
+   
+    width:80%;
+    
+
+    h2 {
+        font-size:18px;
+    }
+}
+
+    .product__card {
+            background-color: #ffffff;
+            padding:30px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius:20px;
+            margin-bottom:1rem;
+            width:200px;
+            height:200px;
+            display:flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            
+            transition: all .3s ease-in-out;
+
+            img {
+            background-color: transparent;
+            cursor: pointer;
+            width:90px;
+            transition: all .3s ease-in-out;
+        
+        }
+    }
+
+    .product__card:hover {
+        cursor: pointer;
+
+        img {
+            width:120px;
+            cursor: pointer;
+        }
+    }
+
+    .product-infos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+   
+
+
+    
+}
